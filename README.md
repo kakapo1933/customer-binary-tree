@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
    ```
    git clone https://github.com/kakapo1933/customer-binary-tree.git
-   cd policy-holder-app
+   cd customer-binary-tree
    ```
 
 2. Install the dependencies:
