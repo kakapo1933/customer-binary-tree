@@ -1,0 +1,26 @@
+{
+  "name": "policy-holder-app",
+  "version": "1.0.0",
+  "description": "A React application for managing policy holders",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start:mock": "json-server --watch db.json --routes routes.json --port 3001"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^3.0.0",
+    "json-server": "^0.17.3",
+    "typescript": "^4.8.4",
+    "vite": "^4.0.0"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "policyholders": [
+    {
+      "id": "root",
+      "code": "root",
+      "name": "John Doe",
+      "registration_date": "2023-01-01T00:00:00Z",
+      "introducer_code": "",
+      "l": [
+        {
+          "id": "L001",
+          "code": "L001",
+          "name": "Left Child 1",
+          "registration_date": "2023-02-01T00:00:00Z",
+          "introducer_code": "root"
+        },
+        {
+          "id": "L002",
+          "code": "L002",
+          "name": "Left Child 2",
+          "registration_date": "2023-02-01T00:00:00Z",
+          "introducer_code": "root"
+        },
+        {
+          "id": "L003",
+          "code": "L003",
+          "name": "Left Child 3",
+          "registration_date": "2023-02-01T00:00:00Z",
+          "introducer_code": "root"
+        }
+      ],
+      "r": [
+        {
+          "id": "R001",
+          "code": "R001",
+          "name": "Right Child 1",
+          "registration_date": "2023-03-01T00:00:00Z",
+          "introducer_code": "root"
+        },
+        {
+          "id": "R002",
+          "code": "R002",
+          "name": "Right Child 2",
+          "registration_date": "2023-03-01T00:00:00Z",
+          "introducer_code": "root"
+        },
+        {
+          "id": "R003",
+          "code": "R003",
+          "name": "Right Child 3",
+          "registration_date": "2023-03-01T00:00:00Z",
+          "introducer_code": "root"
+        }
+      ]
+    },
+    {
+      "id": "L001",
+      "code": "L001",
+      "name": "Left Child 1",
+      "registration_date": "2023-02-01T00:00:00Z",
+      "introducer_code": "root",
+      "l": [
+        {
+          "id": "LL001",
+          "code": "LL001",
+          "name": "Left Left Child 1",
+          "registration_date": "2023-02-15T00:00:00Z",
+          "introducer_code": "L001"
+        }
+      ],
+      "r": [
+        {
+          "id": "LR001",
+          "code": "LR001",
+          "name": "Left Right Child 1",
+          "registration_date": "2023-02-20T00:00:00Z",
+          "introducer_code": "L001"
+        }
+      ]
+    },
+    {
+      "id": "R001",
+      "code": "R001",
+      "name": "Right Child 1",
+      "registration_date": "2023-03-01T00:00:00Z",
+      "introducer_code": "root",
+      "l": [
+        {
+          "id": "RL001",
+          "code": "RL001",
+          "name": "Right Left Child 1",
+          "registration_date": "2023-03-15T00:00:00Z",
+          "introducer_code": "R001"
+        }
+      ],
+      "r": [
+        {
+          "id": "RR001",
+          "code": "RR001",
+          "name": "Right Right Child 1",
+          "registration_date": "2023-03-20T00:00:00Z",
+          "introducer_code": "R001"
+        }
+      ]
+    },
+    {
+      "id": "LL001",
+      "code": "LL001",
+      "name": "Left Left Child 1",
+      "registration_date": "2023-02-15T00:00:00Z",
+      "introducer_code": "L001",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "LR001",
+      "code": "LR001",
+      "name": "Left Right Child 1",
+      "registration_date": "2023-02-20T00:00:00Z",
+      "introducer_code": "L001",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "RL001",
+      "code": "RL001",
+      "name": "Right Left Child 1",
+      "registration_date": "2023-03-15T00:00:00Z",
+      "introducer_code": "R001",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "RR001",
+      "code": "RR001",
+      "name": "Right Right Child 1",
+      "registration_date": "2023-03-20T00:00:00Z",
+      "introducer_code": "R001",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "L002",
+      "code": "L002",
+      "name": "Left Child 2",
+      "registration_date": "2023-02-01T00:00:00Z",
+      "introducer_code": "root",
+      "l": [
+        {
+          "id": "LL002",
+          "code": "LL002",
+          "name": "Left Left Child 2",
+          "registration_date": "2023-02-05T00:00:00Z",
+          "introducer_code": "L002"
+        },
+        {
+          "id": "LR002",
+          "code": "LR002",
+          "name": "Left Right Child 2",
+          "registration_date": "2023-02-10T00:00:00Z",
+          "introducer_code": "L002"
+        }
+      ],
+      "r": [
+        {
+          "id": "RL002",
+          "code": "RL002",
+          "name": "Right Left Child 2",
+          "registration_date": "2023-02-15T00:00:00Z",
+          "introducer_code": "L002"
+        },
+        {
+          "id": "RR002",
+          "code": "RR002",
+          "name": "Right Right Child 2",
+          "registration_date": "2023-02-20T00:00:00Z",
+          "introducer_code": "L002"
+        }
+      ]
+    },
+    {
+      "id": "LL002",
+      "code": "LL002",
+      "name": "Left Left Child 2",
+      "registration_date": "2023-02-05T00:00:00Z",
+      "introducer_code": "L002",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "LR002",
+      "code": "LR002",
+      "name": "Left Right Child 2",
+      "registration_date": "2023-02-10T00:00:00Z",
+      "introducer_code": "L002",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "RL002",
+      "code": "RL002",
+      "name": "Right Left Child 2",
+      "registration_date": "2023-02-15T00:00:00Z",
+      "introducer_code": "L002",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "RR002",
+      "code": "RR002",
+      "name": "Right Right Child 2",
+      "registration_date": "2023-02-20T00:00:00Z",
+      "introducer_code": "L002",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "L003",
+      "code": "L003",
+      "name": "Left Child 3",
+      "registration_date": "2023-02-01T00:00:00Z",
+      "introducer_code": "root",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "R002",
+      "code": "R002",
+      "name": "Right Child 2",
+      "registration_date": "2023-03-01T00:00:00Z",
+      "introducer_code": "root",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "R003",
+      "code": "R003",
+      "name": "Right Child 3",
+      "registration_date": "2023-03-01T00:00:00Z",
+      "introducer_code": "root",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "456",
+      "code": "456",
+      "name": "Jane Smith",
+      "registration_date": "2023-02-15T00:00:00Z",
+      "introducer_code": "INTRO002",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "789",
+      "code": "789",
+      "name": "Bob Johnson",
+      "registration_date": "2023-03-01T00:00:00Z",
+      "introducer_code": "INTRO003",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "101",
+      "code": "101",
+      "name": "Alice Brown",
+      "registration_date": "2023-03-10T00:00:00Z",
+      "introducer_code": "INTRO004",
+      "l": [],
+      "r": []
+    },
+    {
+      "id": "202",
+      "code": "202",
+      "name": "Charlie Davis",
+      "registration_date": "2023-03-20T00:00:00Z",
+      "introducer_code": "INTRO005",
+      "l": [],
+      "r": []
+    }
+  ]
+}

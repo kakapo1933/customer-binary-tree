@@ -1,0 +1,6 @@
+{
+  "/api/*": "/$1",
+  "/policyholders?code=:code": "/policyholders/:code",
+  "/policyholders/:code/top": "/policyholders/:code/top"
+}
+

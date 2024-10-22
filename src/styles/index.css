@@ -1,0 +1,154 @@
+.policy-holder {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.policy-holder.root {
+  background-color: #f9f9f9;
+}
+
+.policy-holder-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.code, .name, .registration-date {
+  font-weight: bold;
+}
+
+.children {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.policy-holder-tree {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.tree-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.tree-children {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.tree-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+/* Vertical lines */
+.tree-branch::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 2px;
+  height: 30px;
+  background-color: #ccc;
+}
+
+/* Adjustments for left and right branches */
+.tree-branch.left::before {
+  right: 50%;
+  left: auto;
+}
+
+.tree-branch.right::before {
+  left: 50%;
+}
+
+/* Node styles */
+.node {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 0 5px 0 5px;
+  border-radius: 4px;
+  background-color: #e9e9e9;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+
+.node:hover {
+  background-color: #d9d9d9;
+}
+
+/* Existing styles... */
+.node-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.node-content {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.code {
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Additional styles to ensure proper spacing */
+.tree-branch.left {
+  padding-right: 20px;
+}
+
+.tree-branch.right {
+  padding-left: 20px;
+}
+
+/* Ensure the horizontal line doesn't extend beyond the branches */
+.tree-children {
+  position: relative;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+/* Add this new style for the branch line */
+.branch-line {
+  position: relative;
+  height: 2px;
+  background-color: #ccc;
+  width: 50%;
+  margin: 10px 0 0 0;
+}
+
+.branch-line::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  height: 10px;
+  width: 2px;
+  background-color: #ccc;
+}
